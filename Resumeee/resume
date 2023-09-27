@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.8">
+    <title>RESUME</title>
+</head>
+
+<body>
+    <header>
+        <Section>
+            <h1>CONTACT INFORMATION</h1>
+            <p>Mang-oy,Demetrie Miguel T.</p>
+            <p>#262 Bakakeng Central, Marcos Highway, Baguio City</p>
+            <p>09452849245</p>
+            <p>migueltacbas@outlook.com</p>
+        </section>
+    </header>
+    <Section>
+        <h2>Education</h2>
+        <p>University of the Cordilleras - 47 Governor Pack Road, Baguio City, Bachelor in Information Technology. </p>
+
+    </Section>
+</body>
+
+</html>
