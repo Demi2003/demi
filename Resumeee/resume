@@ -3,25 +3,140 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.8">
-    <title>RESUME</title>
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Resume</title>
 </head>
 
 <body>
+    <!--header-->
     <header>
-        <Section>
-            <h1>CONTACT INFORMATION</h1>
-            <p>Mang-oy,Demetrie Miguel T.</p>
-            <p>#262 Bakakeng Central, Marcos Highway, Baguio City</p>
-            <p>09452849245</p>
-            <p>migueltacbas@outlook.com</p>
-        </section>
+        <table>
+            <tr>
+                <td>
+                    <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/384480153_1380511505879871_4354478951654526298_n.jpg?stp=dst-jpg_s206x206&_nc_cat=100&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeGi0Dnzf6YbCf8ZcTrxFhqFpkYA29SwEFymRgDb1LAQXJXt4XwInsx42QD2J2kNZNWlI6tb5lsFV66NvvYh2v8i&_nc_ohc=Otiw5boc6aMAX9hJ7Vy&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSdoOFFS_2Be4qbn3W4T_9FqgrwYiht5umKrdO76pV6pA&oe=653CA33A"
+                        alt="" width="127px">
+                </td>
+                <td>
+                    <h1>Demetrie Miguel T. Mang-oy</h1>
+                </td>
+            </tr>
+        </table>
     </header>
-    <Section>
+    <!--Personal Details-->
+    <section>
+        <h2>Personal Details</h2>
+        <hr>
+        <table border="1px">
+            <tr>
+                <td>
+                    <h3>Name</h3>
+                </td>
+                <td>
+                    <p>Demetrie Miguel T. Mang-oy</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>Email</h3>
+                </td>
+                <td>
+                    <p>migueltacbas@gmail.com</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>Contact Number</h3>
+                </td>
+                <td>
+                    <p>09454245224</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>Sex</h3>
+                </td>
+                <td>
+                    <p>Male</p>
+                </td>
+            </tr>
+        </table>
+    </section>
+    <section>
+        <h2>Summary</h2>
+        <hr>
+        <P>Learned basic coding languages,like java and python.Currently learning HTML and Web Technologies
+        </P>
+    </section>
+    <section>
+        <h2>Experience</h2>
+        <hr>
+        <table border="2px">
+            <tr>
+                <td>
+                    <strong>S.Y 2021-2022</strong>
+                </td>
+                <td>
+                    Created some school projects using java and python.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>S.Y 2O21-2022</strong>
+                </td>
+                <td>
+                    Tried working on some small company make a project, on how to create an app to detect a polluted
+                    area.
+                </td>
+            </tr>
+        </table>
+    </section>
+    <br>
+    <section>
         <h2>Education</h2>
-        <p>University of the Cordilleras - 47 Governor Pack Road, Baguio City, Bachelor in Information Technology. </p>
+        <hr>
+        <table>
+            <tr>
+                <td>
+                    <strong>2012-2016</strong>
+                </td>
+                <td>
+                    <p>High School Diploma,Gov. Pack Rd, Baguio, Benguet</p>
+                </td>
+            </tr>
+        </table>
+    </section>
+    <br>
+    <section>
+        <h2>Skills</h2>
+        <hr>
+        <table cellspacing="20px">
+            <tr>
+                <td>
+                    <h3>Hard Skills</h3>
+                    <ul>
+                        <li>Gathering Software Requirements</li>
+                        <li>Financial Modeling</li>
+                        <li>IT Skills</li>
+                    </ul>
+                </td>
+                <td>
+                    <h3>Soft Skills</h3>
+                    <ul>
+                        <li>Communication</li>
+                        <li>Collaboration</li>
+                        <li>Problem Solving</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </section>
 
-    </Section>
+
+
+
+
+
+    <br><br><br><br><br><br><br><br><br><br>
 </body>
 
 </html>
