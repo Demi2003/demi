@@ -3,6 +3,22 @@ body {
     color: #1b1b32;
     font-family: Helvetica;
     margin: 0;
+<<<<<<< HEAD
+  }
+  
+  header {
+    width: 100%;
+    height: 50px;
+    background-color: #1b1b32;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+  }
+  
+  #logo {
+=======
   }
   
   header {
@@ -13,10 +29,24 @@ body {
   }
   
   #logo {
+>>>>>>> db268a7ecb5d567ff82afab9186c3eeabdf04ff2
     width: max(100px, 18vw);
     background-color: #0a0a23;
     aspect-ratio: 35 / 4;
     padding: 0.4rem;
+<<<<<<< HEAD
+  }
+  
+  h1 {
+    color: #f1be32;
+    font-size: min(5vw, 1.2em);
+    text-align: center;
+  }
+  
+  nav {
+    width: 50%;
+    max-width: 300px;
+=======
   }
   
   h1 {
@@ -27,12 +57,47 @@ body {
   nav {
     width: 50%;
     max-width: 300px;
+>>>>>>> db268a7ecb5d567ff82afab9186c3eeabdf04ff2
     height: 50px;
   }
   
   nav > ul {
     display: flex;
     justify-content: space-evenly;
+<<<<<<< HEAD
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+  }
+  
+  nav > ul > li {
+    color: #dfdfe2;
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    display: block;
+  }
+  
+  nav > ul > li:hover {
+    background-color: #dfdfe2;
+    color: #1b1b32;
+    cursor: pointer;
+  }
+  
+  li > a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  main {
+    padding-top: 50px;
+  }
+  
+  section {
+    width: 80%;
+    margin: 0 auto 10px auto;
+    max-width: 600px;
   }
   
   h1,
@@ -41,7 +106,45 @@ body {
   }
   
   h2 {
+=======
+  }
+  
+  h1,
+  h2 {
+    font-family: Verdana, Tahoma;
+  }
+  
+  h2 {
+>>>>>>> db268a7ecb5d567ff82afab9186c3eeabdf04ff2
     border-bottom: 4px solid #dfdfe2;
+<<<<<<< HEAD
+    margin-top: 0px;
+    padding-top: 60px;
+  }
+  
+  .info {
+    padding: 10px 0 0 5px;
+  }
+  
+  .formrow {
+    margin-top: 30px;
+    padding: 0px 15px;
+  }
+  
+  input {
+    font-size: 16px;
+  }
+  
+  
+  
+  .info input {
+    width: 50%;
+    text-align: left;
+  }
+  
+  .info label {
+    width: 10%;
+    min-width: 55px;
   }
   
   p::before {
@@ -49,6 +152,15 @@ body {
   }
   
   .sr-only {
+=======
+  }
+  
+  p::before {
+    content: "Question #";
+  }
+  
+  .sr-only {
+>>>>>>> db268a7ecb5d567ff82afab9186c3eeabdf04ff2
     position: absolute;
     width: 1px;
     height: 1px;
