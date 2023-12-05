@@ -1,0 +1,49 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --text: hsl(228, 12%, 8%)
+
+
+}
+
+* {
+    margin: 0;
+}
+
+#header-img {
+    width: 60px;
+    object-fit: contain;
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: var(--white);
+    padding: 10px;
+}
+
+.nav-links  {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--text);
+    padding: 0 10px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+.the-product {
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: 700;
+    font-family: "monsterrat";
+}
